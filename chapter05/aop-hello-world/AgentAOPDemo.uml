@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.apress.prospring5.ch5.AgentAOPDemo</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1029.0">com.apress.prospring5.ch5.Agent</node>
+    <node x="432.0" y="973.0">org.springframework.aop.framework.ProxyFactory</node>
+    <node x="140.0" y="1029.0">com.apress.prospring5.ch5.AgentDecorator</node>
+    <node x="183.0" y="1220.0">com.apress.prospring5.ch5.AgentAOPDemo</node>
+    <node x="177.0" y="0.0">org.springframework.aop.framework.AdvisedSupport</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.aop.framework.ProxyFactory" target="org.springframework.aop.framework.AdvisedSupport">
+      <point x="64.5" y="-83.5" />
+      <point x="192.0" y="451.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.45019305019305017" x="345.0" y="637.5" />
+  <SelectedNodes>
+    <node>com.apress.prospring5.ch5.AgentAOPDemo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
